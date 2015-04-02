@@ -1,0 +1,7 @@
+/home/deviser/Development/Android/workspace/BluetoothLeGatt/Application/build/intermediates/classes/debug
+/home/deviser/Development/Android/workspace/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-1989cf642b49998e7f3ca350e0e08b231bb0918b.jar
+/home/deviser/Development/Android/workspace/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-fde7c8727944292f7e8c6185e2ea2d2b212a13a5.jar
+/home/deviser/Development/Android/workspace/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes-55215f0ab4db781173db291cee7e3351f7a79504.jar
+/home/deviser/Development/Android/workspace/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes-9f75ec8ea18ae9b7dabb4eedb3613c1e773f9a33.jar
+/home/deviser/Development/Android/workspace/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-a4d6a2af58418f9d02b4cc48c0121bdf2bed60e4.jar
+/home/deviser/Development/Android/workspace/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes-264e46eb532b985c0f4425b6e3b4cea890e47195.jar
