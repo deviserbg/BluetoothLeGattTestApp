@@ -35,9 +35,12 @@ import android.widget.ExpandableListView;
 import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
 
+import com.example.android.bluetoothlegatt.picture.PhotoIntentActivity;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.UUID;
 
 /**
  * For a given BLE device, this Activity provides the user interface to connect, display data,
@@ -64,6 +67,9 @@ public class DeviceControlActivity extends Activity {
 
     private final String LIST_NAME = "NAME";
     private final String LIST_UUID = "UUID";
+
+    public final static UUID UUID_SEND_ALARM =
+            UUID.fromString(SampleGattAttributes.SEND_ALARM_CHARACTERISTIC);
 
     // Code to manage Service lifecycle.
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
@@ -141,6 +147,11 @@ public class DeviceControlActivity extends Activity {
                             mBluetoothLeService.setCharacteristicNotification(
                                     characteristic, true);
                         }
+
+                        if (UUID_SEND_ALARM.equals(characteristic.getUuid())) {
+                            mBluetoothLeService.writeCharacteristic(characteristic);
+                        }
+
                         return true;
                     }
                     return false;
@@ -224,6 +235,12 @@ public class DeviceControlActivity extends Activity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void sendMessage(View view) {
+        Intent intent = new Intent(this, PhotoIntentActivity.class);
+
+        startActivity(intent);
     }
 
     private void updateConnectionState(final int resourceId) {

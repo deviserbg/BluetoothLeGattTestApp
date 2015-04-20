@@ -63,7 +63,6 @@ public class DeviceScanActivity extends ListActivity {
     // Stops scanning after 10 seconds.
     private static final long SCAN_PERIOD = 10000;
 
-    private static int trash = 0;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

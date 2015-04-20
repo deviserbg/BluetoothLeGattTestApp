@@ -27,7 +27,8 @@ public class SampleGattAttributes {
     public static String CLIENT_CHARACTERISTIC_CONFIG = "00002902-0000-1000-8000-00805f9b34fb";
 
     public static String ACTION_BUTTON_CHARACTERISTIC = "0000fff1-0000-1000-8000-00805f9b34fb";
-    public static String ACTION_BUTTON__DOUBLE_CHARACTERISTIC = "0000fff2-0000-1000-8000-00805f9b34fb";
+//    public static String ACTION_BUTTON__DOUBLE_CHARACTERISTIC = "0000fff2-0000-1000-8000-00805f9b34fb";
+    public static String SEND_ALARM_CHARACTERISTIC = "0000fff2-0000-1000-8000-00805f9b34fb";
 
     static {
         // Sample Services.
@@ -38,7 +39,8 @@ public class SampleGattAttributes {
         attributes.put("00002a29-0000-1000-8000-00805f9b34fb", "Manufacturer Name String");
 
         attributes.put(ACTION_BUTTON_CHARACTERISTIC, "Action Button Characteristic");
-        attributes.put(ACTION_BUTTON__DOUBLE_CHARACTERISTIC, "Action Btn D Characteristic");
+//        attributes.put(ACTION_BUTTON__DOUBLE_CHARACTERISTIC, "Action Btn D Characteristic");
+        attributes.put(SEND_ALARM_CHARACTERISTIC, "Alarm to BLE");
     }
 
     public static String lookup(String uuid, String defaultName) {
