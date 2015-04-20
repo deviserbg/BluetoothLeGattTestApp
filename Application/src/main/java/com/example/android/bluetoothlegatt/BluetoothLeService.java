@@ -161,6 +161,8 @@ public class BluetoothLeService extends Service {
 
                 if (buttonPressType == 1) {
                     Log.d(TAG, "Button is pressed single time ");
+
+
                 } else if (buttonPressType == 2) {
                     Log.d(TAG, "Button is pressed long time ");
                 } else {
