@@ -138,15 +138,15 @@ containing a value of this type.
         public static final int tile=0x7f020001;
     }
     public static final class id {
-        public static final int button_capture=0x7f090007;
-        public static final int camera_preview=0x7f090006;
-        public static final int connection_state=0x7f090001;
-        public static final int data_value=0x7f090002;
-        public static final int device_address=0x7f090000;
-        public static final int device_advertising=0x7f090005;
-        public static final int device_name=0x7f090004;
-        public static final int gatt_services_list=0x7f090003;
-        public static final int imageView1=0x7f090008;
+        public static final int button_capture=0x7f090001;
+        public static final int camera_preview=0x7f090000;
+        public static final int connection_state=0x7f090004;
+        public static final int data_value=0x7f090005;
+        public static final int device_address=0x7f090003;
+        public static final int device_advertising=0x7f090008;
+        public static final int device_name=0x7f090007;
+        public static final int gatt_services_list=0x7f090006;
+        public static final int imageView1=0x7f090002;
         public static final int menu_connect=0x7f09000a;
         public static final int menu_disconnect=0x7f09000b;
         public static final int menu_refresh=0x7f090009;
